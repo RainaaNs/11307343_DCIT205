@@ -27,4 +27,4 @@ Student ID: 11307343
 
 #### What I learned from the Project
 
-(Note to Self:Make this file well organized, clear and professional in presentationgit)
+(Note to Self:Make this file well organized, clear and professional in presentationls)

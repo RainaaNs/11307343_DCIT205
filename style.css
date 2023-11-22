@@ -1,6 +1,6 @@
 
 body {
-    margin: 1;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,7 +18,7 @@ header {
 .logo img {
     width: 300px;
     height: auto;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 nav ul {
@@ -26,7 +26,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 400px;
+    margin-right: 50px;
 }
 
 nav ul li {
@@ -48,30 +48,274 @@ nav ul a {
     border: none;
     border-radius: 12px;
     cursor: pointer;
-   
     white-space: nowrap;
 }
 
 
 .hero-section {
-    background-image: url('images/girlstudying.jpg'); /* Replace with the URL of your image */
+    background-image: url('https://images.unsplash.com/photo-1591980607162-923fa31e8240?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJpZW5kcyUyMGF0JTIwdW5pJTIwYWxsJTIwcmFjZXN8ZW58MHx8MHx8fDA%3D'); 
     background-size: cover;
     background-position: center;
-    height: 70vh; /* Adjust the height of the hero section as needed */
+    height: 70vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: left; 
+    
 }
 
-.image-container {
-    width: 100%; /* Make the container take the full width of the section */
-    height: 100%; /* Make the container take the full height of the section */
-    background-image: url('images/girlstudying.jpg'); /* Same image as the background for consistency */
-    background-size: cover;
-    background-position: center;
+.hero-content {
+    text-align: left; 
+    color: white; 
+    margin-left: 100px; 
+    margin-top: 90px;
+    font-size: 2em; 
+    font-weight: bold;
+    margin-bottom:-30px;
+}
+
+.hero-apply{
+    text-align: left; 
+    color: white;
+    margin-top: 0px; /*Check for effect when deleted*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 2.5%;
+    background-color: rgb(32, 52, 115);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 17px;
+  
+}
+
+.separator {
+    border: 10px solid rgb(225, 232, 250);
+    padding: 0;
+    margin: 0;
+}
+
+
+/*About Us Section*/
+.about-container {  
+    text-align: center;
+    margin: 77px;
+}
+
+.about-container h2 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    color:rgb(32, 52, 115);
+}
+
+.about-container p {
+    font-size: 16px; 
+    color: black;
+    
+}
+
+.about-container r{
+    font-size: 16px;
+    color: rgb(32, 52, 115);
+}
+
+
+
+.programs-section {
+    background-color: rgb(237, 240, 245); 
+    padding: 20px; 
+    text-align: center;
+    margin-top: 100px;
+
+
+    
+}
+
+.programs-section-content {
+    color: white; 
+    
+    
+}
+
+.programs-section-content h2 {
+    font-size: 24px;
+    padding-left: 15px ;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgb(32, 52, 115);
 }
 
 
 
 
 
+.short-courses-container {
+    display: flex;
+    margin-bottom:50px;
+}
+
+.box {
+    margin: 15px;
+    overflow: hidden; 
+}
+
+.heading-section1 {
+    background-color: rgb(228, 186, 148); 
+    padding: 3px;
+    text-align: left;
+    color: #ffffff; 
+    height: 60px; 
+    width: 273px;
+    font-size: 15px;
+    padding-left: 14px;
+   
+}
+.heading-section2{
+    background-color: rgb(228, 186, 148); 
+    padding: 5px;
+    text-align: left;
+    color: #ffffff; 
+    height: 80px; 
+    width: 273px;
+    
+    font-size: 15px;
+    padding-left: 14px;
+   
+}
+
+
+.info-section1 {
+    background-color: white; 
+    padding: 9px;
+    text-align: left;
+    color: #000000; 
+    margin-right: 15px;
+    height: 150px;
+    width: 273px;
+}
+
+.info-section2 {
+    background-color: white; 
+    padding: 9px;
+    
+    text-align: left;
+    margin-right: 25px;
+ 
+    color: #000000; 
+    height: 125.9px;
+    width: 280px;
+}
 
 
 
+.events{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px ;
+    background-color: rgb(51, 74, 115);
+    padding-left: 48px;
+    padding-top: 50px;
+    padding-bottom:35px;
+}
+
+
+.events-heading {
+    text-align: left; 
+    color: white; 
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 0.6;
+}
+
+.events-info{
+    color:rgb(63, 158, 188);
+    font-size:18px;
+    font-weight: bold;
+    line-height: 0.4;
+}
+
+
+
+.events-button{
+    text-align: center; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 8.5px;
+    padding-right:25.5px;
+    padding-left:25.5px;
+    background-color: rgb(145, 161, 177);
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+
+    align-self: flex-start; /* Align the button to the start (top) of the flex container */
+    margin-right: 55px; /* Adjust margin to the right if needed */
+    margin-top: -45px;
+
+
+}
+
+.events-button-container {
+    display:flex;
+    justify-content:flex-end;
+
+    align-items: flex-start;
+
+}
+
+
+.join-container{
+    text-align: center;
+    margin: 200px;
+}
+
+.join-heading{
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    color:rgb(32, 52, 115);
+
+}
+
+.join-brief{
+    font-size: 16px; 
+    color: black;
+}
+
+.next2-picture{
+    background-color: rgb(230, 230, 185);
+    width: 500px;
+    height:500px;
+    
+    display: flex;
+    
+
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+
+.next2-heading{
+    color: yellow;
+    font-size: 20px;
+    margin-left: 20px;
+    padding:5px;
+    white-space: nowrap;
+    text-align:left;
+}
+.next2-info{
+    font-size:15px;
+    color: black;
+    margin-top:70px;
+    margin-left:-194px;
+    padding: 5px;
+    text-align:left;
+}
+
+.next22-container{
+    display:flex;
+    justify-content:flex-start;
+}

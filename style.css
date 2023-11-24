@@ -16,6 +16,7 @@ header {
 }
 
 .logo img {
+    
     width: 300px;
     height: auto;
     margin-left: 50px;
@@ -284,38 +285,145 @@ nav ul a {
     color: black;
 }
 
-.next2-picture{
-    background-color: rgb(230, 230, 185);
-    width: 500px;
-    height:500px;
-    
-    display: flex;
-    
 
+
+.next2-picture1 {
+    background-color: rgb(250, 247, 238);
+    width: 527.5px;
+    height: 200px;
+    display: flex;
     margin-left: 100px;
     margin-top: 50px;
+  }
+  
+  .next2-heading {
+    color: rgb(154, 144, 91);
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  
+  .next2-info1 {
+    font-size: 15px;
+    color: black;
+    margin-top: 65px; 
+    margin-left: -200px; 
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .next2-info2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 59px; 
+    margin-left: -150px; 
+    padding: 5px;
+    text-align: left;
+  }
+
+  .next2-picture2 {
+    background-color: rgb(250, 247, 238);
+    width: 522x;
+    height: 200px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 0px;  /*Check if can do without*/
+  }
+
+ 
+
+.picture-next2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    margin-right: 95px;
+    margin-top: -400px;
+      
+}
+
+.picture-next2 img {
+  width: 540px;
+  height: 400px;
+
+}
+
+
+
+.endof-container{
+    margin-top: 180px;
+    background-color: rgb(36, 54, 116);
+    height: 350px;
+
+    margin-bottom:35px;
+    
+}
+
+.logo2{
+    width: 300px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+
+
+
+
+
+
+
+.no-bullets{
+    list-style-type: none;
+    font-size: 16px;
+    color:white;
+    line-height: 0.5;
+}
+
+.no-bullets li {
+    margin-bottom: 10px;
+    padding: 4px;
+    margin-left: -45px;
+}
+
+
+
+.inend-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -100px;
+    margin-right:35px; 
+   
+  
+}
+
+
+.aca,
+.admi,
+.res,
+.thedep {
+    flex:auto;
+    margin: 0px;
+    padding: 9px;
+    border: none;  /*later none*/
+   
+    max-width: max-content;
+    color: white;
+    white-space: nowrap;
+
+
+}
+
+.endof-aca,
+.endof-admi,
+.endof-dep,
+.endof-res{
+    font-size: 18px;
+    color: white;
     
 }
 
 
-.next2-heading{
-    color: yellow;
-    font-size: 20px;
-    margin-left: 20px;
-    padding:5px;
-    white-space: nowrap;
-    text-align:left;
-}
-.next2-info{
-    font-size:15px;
-    color: black;
-    margin-top:70px;
-    margin-left:-194px;
-    padding: 5px;
-    text-align:left;
-}
 
-.next22-container{
-    display:flex;
-    justify-content:flex-start;
-}

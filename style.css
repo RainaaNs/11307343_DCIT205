@@ -96,6 +96,21 @@ nav ul a {
     margin: 0;
 }
 
+.separator2{
+    border: 10px solid 	rgb(52, 76, 120);
+    padding: 0;
+    margin: 0;
+
+}
+
+.separator3{
+    border: 1px solid 	rgb(44, 45, 49);
+    padding: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 90px;
+}
+
 
 /*About Us Section*/
 .about-container {  
@@ -252,8 +267,8 @@ nav ul a {
     white-space: nowrap;
     font-size: 14px;
 
-    align-self: flex-start; /* Align the button to the start (top) of the flex container */
-    margin-right: 55px; /* Adjust margin to the right if needed */
+    align-self: flex-start; 
+    margin-right: 55px; 
     margin-top: -45px;
 
 
@@ -298,7 +313,7 @@ nav ul a {
   
   .next2-heading {
     color: rgb(154, 144, 91);
-    font-size: 20px;
+    font-size: 21px;
     margin-left: 20px;
     padding: 5px;
     white-space: nowrap;
@@ -306,19 +321,19 @@ nav ul a {
   }
   
   .next2-info1 {
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     margin-top: 65px; 
-    margin-left: -200px; 
+    margin-left: -210px; 
     padding: 5px;
     text-align: left;
   }
   
   .next2-info2 {
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     margin-top: 59px; 
-    margin-left: -150px; 
+    margin-left: -158px; 
     padding: 5px;
     text-align: left;
   }
@@ -330,6 +345,25 @@ nav ul a {
     display: flex;
     margin-left: 100px;
     margin-top: 0px;  /*Check if can do without*/
+  }
+
+
+  .view-courses{
+    margin-top: 135px;
+    margin-left: -465px;
+
+    text-align: center; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 8.5px;
+    padding-right:25.5px;
+    padding-left:25.5px;
+    background-color: rgb(36, 35, 31);
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
   }
 
  
@@ -347,18 +381,16 @@ nav ul a {
 .picture-next2 img {
   width: 540px;
   height: 400px;
-
 }
 
 
 
-.endof-container{
+.footer-container{
     margin-top: 180px;
     background-color: rgb(36, 54, 116);
-    height: 350px;
+    height: 470px;
 
-    margin-bottom:35px;
-    
+    margin-bottom:10px;   
 }
 
 .logo2{
@@ -367,10 +399,6 @@ nav ul a {
     margin-left: 60px;
     margin-top: 130px;
 }
-
-
-
-
 
 
 
@@ -393,36 +421,157 @@ nav ul a {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin-top: -100px;
-    margin-right:35px; 
-   
-  
+    margin-top: -120px;
+    margin-right:35px;
 }
+
+.inend-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -10px;
+    margin-right:255px;
+    gap:50px;
+}
+
 
 
 .aca,
 .admi,
 .res,
-.thedep {
+.thedep,
+.phone-email,
+.loca {
     flex:auto;
     margin: 0px;
     padding: 9px;
-    border: none;  /*later none*/
+    border: none;  
    
     max-width: max-content;
     color: white;
     white-space: nowrap;
-
-
 }
 
 .endof-aca,
 .endof-admi,
 .endof-dep,
-.endof-res{
+.endof-res,
+.endof-phone,
+.endof-loca
+{
     font-size: 18px;
     color: white;
     
+}
+
+
+/*About Us Page*/
+.aboutpic-container {
+    max-width: 100%;
+    height: 100%;
+    max-height: 510px;
+    overflow: hidden;
+   
+}
+
+.about-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-center-container{
+    display: flex;  
+}
+
+.text-center-h2{
+    font-size:40px;
+    text-align:left;
+    color:rgb(27, 27, 59);
+    
+    margin-top: 100px;
+    margin-left:200px;
+}
+
+.text-center-h2:hover {
+    color: rgb(228, 185, 150);
+}
+
+.text-center-p{
+    font-size: 22.5px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.sidepic-pic {
+    max-width: 35%;
+    width: auto;
+    height: 35%;   
+}
+.sidepic-container {
+    display: flex;
+    flex-direction: row; /* Change to row to align side by side */
+    overflow: hidden;
+    
+    margin-bottom: 70px;
+    gap: 30px;
+    margin-left: 40px;
+    margin-right:40px;
+    margin-top:100px;
+    justify-content: center;
+}
+
+
+.sidepic-text-h2{
+    font-size: 21px;
+    margin-left:200px;
+    margin-right:200px;
+}
+.sidepic-text-p{
+    font-size:17px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+
+.sidepic-text-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/*Undergraduate, Graduate, Catalog, Short Courses, Resources */
+.same6-navbar{
+    white-space: wrap;
+
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.same6-navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+hr {
+    border: none;
+    width: 50%;
+    margin-top: -9px;
+}
+
+.separator4 {
+    width: 100%;
+    max-width: 1500px; 
+    max-height: 70px;
+    overflow: hidden;
 }
 
 

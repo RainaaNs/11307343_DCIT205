@@ -39,6 +39,14 @@ nav ul a {
     color: black;
     font-weight:500;
 }
+nav a.active {
+    border-bottom: 2px solid #3498db; 
+    color: #3498db; 
+}
+
+nav ul li :hover{
+    color:#3498db;
+}
 
 
 .contact {
@@ -90,6 +98,12 @@ nav ul a {
   
 }
 
+.hero-apply a{
+    text-decoration: none;
+    color:white;
+}
+
+
 .separator {
     border: 10px solid rgb(225, 232, 250);
     padding: 0;
@@ -137,11 +151,11 @@ nav ul a {
     
 }
 
-.about-container r{
+.about-container a{
     font-size: 16px;
     color: rgb(32, 52, 115);
+    text-decoration: none;
 }
-
 
 
 .programs-section {
@@ -149,15 +163,20 @@ nav ul a {
     padding: 20px; 
     text-align: center;
     margin-top: 100px;
-
-
-    
+ 
 }
 
 .programs-section-content {
-    color: white; 
-    
-    
+    color: white;    
+}
+
+.programs-section-content a{
+    text-decoration: none;
+    color:rgb(32, 52, 115);
+}
+
+.programs-section-content :hover{
+    color:rgb(228, 186, 148);
 }
 
 .programs-section-content h2 {
@@ -171,16 +190,19 @@ nav ul a {
 
 
 
-
-
 .short-courses-container {
     display: flex;
     margin-bottom:50px;
 }
 
 .box {
-    margin: 15px;
+    margin: 10px;
     overflow: hidden; 
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
 }
 
 .heading-section1 {
@@ -191,9 +213,13 @@ nav ul a {
     height: 60px; 
     width: 273px;
     font-size: 15px;
-    padding-left: 14px;
-   
+    padding-left: 14px;  
 }
+.heading-section1 a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
 .heading-section2{
     background-color: rgb(228, 186, 148); 
     padding: 5px;
@@ -204,26 +230,37 @@ nav ul a {
     
     font-size: 15px;
     padding-left: 14px;
-   
+}
+.heading-section2 a{
+    text-decoration: none;
+    color:#ffffff;
 }
 
 
 .info-section1 {
     background-color: white; 
-    padding: 9px;
+
+    padding-right:17px;
+    padding-top:9px;
+    padding-bottom:9px;
+
     text-align: left;
     color: #000000; 
     margin-right: 15px;
     height: 150px;
     width: 273px;
+    
 }
 
 .info-section2 {
     background-color: white; 
-    padding: 9px;
     
     text-align: left;
-    margin-right: 25px;
+    margin-right: 15px;
+
+    padding-right:17px;
+    padding-top:9px;
+    padding-bottom:9px;
  
     color: #000000; 
     height: 125.9px;
@@ -259,7 +296,6 @@ nav ul a {
 }
 
 
-
 .events-button{
     text-align: center; 
     color: white;
@@ -277,8 +313,11 @@ nav ul a {
     align-self: flex-start; 
     margin-right: 55px; 
     margin-top: -45px;
+}
 
-
+.events-button a{
+    text-decoration:none;
+    color:white;
 }
 
 .events-button-container {
@@ -305,6 +344,8 @@ nav ul a {
 .join-brief{
     font-size: 16px; 
     color: black;
+
+    margin-bottom:-110px;
 }
 
 
@@ -373,6 +414,10 @@ nav ul a {
     font-size: 14px;
   }
 
+  .view-courses a{
+    text-decoration: none;
+    color:white;
+  }
  
 
 .picture-next2 {
@@ -466,6 +511,21 @@ nav ul a {
     color: white;
     white-space: nowrap;
 }
+.aca a,
+.admi a,
+.res a,
+.thedep a{
+    text-decoration: none;
+    color:white;
+}
+
+.aca a:hover,
+.admi a:hover,
+.res a:hover,
+.thedep a:hover {
+    color: #ddd; 
+}
+
 
 .endof-aca,
 .endof-admi,
@@ -528,6 +588,7 @@ nav ul a {
     width: auto;
     height: 35%;   
 }
+
 .sidepic-container {
     display: flex;
     flex-direction: row; /* Change to row to align side by side */
@@ -574,6 +635,11 @@ nav ul a {
     color: #ecf0f1;
     text-decoration: none;
     margin: 0 15px;
+}
+
+.same6-navbar a.active1{
+    border-bottom: 2px solid #586c81; 
+    color: #ecf0f1;
 }
 
  .hedsep  {
@@ -797,6 +863,14 @@ nav ul a {
     font-size: 18px;
 }
 
+.enroll{
+    text-decoration:none;
+    color:#3498db;
+}
+.enroll:hover{
+   text-decoration: underline;
+}
+
 
 /*Faculty*/
 
@@ -970,16 +1044,18 @@ font-size:16px;
 
 
 .aligned p{
-    padding-top: 100px;
-    padding-left: 40px;
+    padding-top: 70px;
+    padding-left: 25px;
     padding-right: 20px;
+    text-align:left;
 }
 span{
    font-weight: bold;
 }
-.short{
+
+.short1{
     height: 300px;
-    width: 400px;
+    width: 350px;
     border-top-left-radius: 7px;
   
     border-bottom-left-radius: 7px;
@@ -987,11 +1063,21 @@ span{
    
 }
 .short-cyber{
-    height: 420px;
+    height: 390px;
     width: 590px;
     border-top-left-radius: 7px;
   
     border-bottom-left-radius: 7px;
+}
+
+.short3{
+    height: 330px;
+    width: 350px;
+    border-top-left-radius: 7px;
+  
+    border-bottom-left-radius: 7px;
+  
+
 }
 
 .headings p{
@@ -1032,12 +1118,13 @@ span{
   
 }
 #send{
-    height: 28px;
+    height: 37px;
     width: 120px;
     background-color: cornflowerblue;
     border-radius:3px;
     border-color: cornflowerblue;
     color: white;
+   
 
 }
 

@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
 }
 
-.logo img {
+ .logo img {
     
     width: 300px;
     height: auto;
@@ -111,6 +111,13 @@ nav ul a {
     margin-top: 90px;
 }
 
+.separator3-5{
+    border: 1px solid 	rgb(44, 45, 49);
+    padding: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
 
 /*About Us Section*/
 .about-container {  
@@ -392,6 +399,14 @@ nav ul a {
 
     margin-bottom:10px;   
 }
+.footer-container2{
+    margin-top:-155px;
+    background-color: rgb(36, 54, 116);
+    height: 470px;
+
+    margin-bottom:10px;   
+
+}
 
 .logo2{
     width: 300px;
@@ -561,11 +576,19 @@ nav ul a {
     margin: 0 15px;
 }
 
-hr {
+ .hedsep  {
     border: none;
     width: 50%;
     margin-top: -9px;
+    margin: 0 15px;
 }
+.hedsep2{
+    border: none;
+    width: 50%;
+   
+    margin: 0 15px;
+}
+
 
 .separator4 {
     width: 100%;
@@ -574,5 +597,163 @@ hr {
     overflow: hidden;
 }
 
+.separator5{
+    width: 100%;
+    max-width: 1500px; 
+    max-height: 70px;
+    overflow: hidden;
+
+    margin-bottom:150px;
+    margin-top:200px;
+}
+
+.same6-text-container{
+    margin-bottom: 0px;
+    margin-top: 60px;;
+    margin-bottom:70px;
+
+}
+
+.same6-text-container h2{
+    font-size: 33px;
+    font-weight:lighter;
+    text-align: center;
+    
+}
+
+.same6-text-container p{
+    font-size:21px;
+    margin-left:200px;
+    margin-right:200px;
+  
+}
+
+.same6-text{
+    font-size:22px;
+    margin-left:200px;
+    margin-right:200px;
+
+}
 
 
+
+
+
+
+.expand-checkbox {
+    display: none;
+}
+
+.item-label {
+    display: block;
+    padding: 15px;
+
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-left:225px;
+
+    font-size:22px;
+    font-weight: bold;
+    color: rgb(31, 48, 102);
+}
+
+.course-list{
+    font-size: 17px;
+    margin-left:235px;
+    margin-bottom:30px;
+}
+
+
+.semester1{
+    font-size:21px;
+    font-weight: bold;
+    color: rgb(31, 48, 102);
+
+    margin-left:235px;
+    margin-top:-4px;
+}
+
+
+.hidden-content {
+    display: none;
+    padding: 3px;
+    border: 1px;
+    margin-top: 5px;
+    transition: max-height 2s ease-in-out;
+   
+    max-height: 100%;
+
+    margin-left:130px;
+
+}
+
+
+.expand-checkbox:checked + .item-label + .hidden-content {
+    display:contents;
+    max-height: 10000px; 
+   
+}
+
+
+
+
+.csit-heading{
+    font-size:29px;
+    margin-left: 190px;
+}
+
+
+.courses-container{
+    margin-top:100px;
+    margin-bottom:70px;
+}
+
+.separator3-6{
+    border: 10px solid rgb(225, 232, 250);
+    padding: 0;
+    margin: 0;
+}
+.no-bullets1{
+    list-style-type: none;
+    font-size: 16px; 
+}
+
+
+.eachyear{
+    font-weight: italic;
+    text-align: left;
+    font-size: 19px;
+    margin-left:200px;
+    margin-bottom:70px;
+}
+
+.mini-heading{
+    font-size:23.5px;
+    font-weight:600;
+
+}
+
+.catal-container{
+    margin-top:90px;
+    margin-left:250px;
+    margin-right:250px;
+}
+
+.catal-container h2{
+    margin-top:120px;
+    color: rgb(31, 48, 102);
+    font-size:28px;
+}
+
+.catal-container p{
+    font-size: 18px;
+}
+
+.res-container{
+    margin-left: 60px;
+    color: rgb(31, 48, 102);
+}
+.res-container h2{
+    font-size:24px;
+    font-weight:500;
+}

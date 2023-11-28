@@ -54,7 +54,7 @@ nav ul a {
 
 
 .hero-section {
-    background-image: url('https://images.unsplash.com/photo-1591980607162-923fa31e8240?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJpZW5kcyUyMGF0JTIwdW5pJTIwYWxsJTIwcmFjZXN8ZW58MHx8MHx8fDA%3D'); 
+    background-image: url('finalstudents.jpg'); 
     background-size: cover;
     background-position: center;
     height: 70vh; 
@@ -881,4 +881,223 @@ font-size:16px;
     padding:18px;
     padding-left:30px;
     padding-bottom:40px;
+}
+
+
+/*404 page*/
+.backg404-container {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d2b48c; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+}
+
+.backg404-container h1 {
+    font-size: 120px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.backg404-container h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.backg404-container p {
+    font-size: 18px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/*Events page*/
+.bullet-events{
+    font-size:25px;
+    text-align: center;
+}
+
+.b-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("loginbackground3.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    margin-top:-90px;
+    margin-bottom:-180px;
+}
+.dialog-box{
+    background-color: #eaf3f6;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: auto;
+   
+}
+.headings{
+    background-color:  #eaf3f6;
+    border-radius: 15px;
+}
+
+.headings h1{
+   
+   font-size: 50px;
+   padding-top: 80px;
+   text-align: center;
+}
+
+.aligned {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 90px;
+    background-color: white;
+    border-radius: 7px;
+     
+}
+
+
+.aligned p{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+span{
+   font-weight: bold;
+}
+.short{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius: 7px;
+  
+    border-bottom-left-radius: 7px;
+  
+   
+}
+.short-cyber{
+    height: 420px;
+    width: 590px;
+    border-top-left-radius: 7px;
+  
+    border-bottom-left-radius: 7px;
+}
+
+.headings p{
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+}
+.headings-h {
+    margin-top: 40px;
+}
+.news{
+    background-color: #eaf3f6;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom:  110px;
+}
+
+.news p{
+    padding-top: 30px;
+    font-size: 15px;
+}
+#fname, #email{
+    width: 300px;
+    height:30px;
+    padding-left: 15px;
+    border-color: rgba(0, 0, 0, 0.589);
+    border-radius: 3px;
+}
+#e-mail{
+    width: 300px;
+    height:30px;
+    padding-left: 15px;
+    border-color: rgba(0, 0, 0, 0.589);
+    border-radius: 3px;
+
+  
+}
+#send{
+    height: 28px;
+    width: 120px;
+    background-color: cornflowerblue;
+    border-radius:3px;
+    border-color: cornflowerblue;
+    color: white;
+
+}
+
+/*Contact Us*/
+.submit{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-us{
+  
+    background-image: url('contactus_tcm127-6317963_tcm127-6286607-32.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+  
+}
+.contact-us h2{
+    color: white;
+    padding-top: 240px;
+    font-size: 50px;
+}
+.contact-us p{
+    font-weight:600;
+}
+
+section {
+    padding: 70px;
+}
+section p{
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
